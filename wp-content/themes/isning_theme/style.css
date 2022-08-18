@@ -1,0 +1,163 @@
+
+/**************************
+    NORMALIZER
+**************************/
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: inherit;
+}
+
+/**************************
+    UTILITIES
+**************************/
+.bg-lightblue {
+    background-color: #0183DB;
+}
+
+.bg-blue {
+    background-color: #0073C0;
+}
+
+.bg-darkblue {
+    background-color: #191f35;
+}
+
+.bg-deepblue {
+    background-color: #13131d;
+}
+
+.text-blue {
+    color: #0073C0;
+}
+.text-lightblue {
+    color: #0183DB;
+}
+.text-weight-600 {
+    font-weight: 600;
+}
+
+.sc-btn {
+    padding: 15px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .3s ease all;
+}
+
+.btn-blue {
+    background-color: #0183DB;
+    color: #fff;
+}
+.btn-blue:hover,
+.btn-blue:hover > * {
+    background-color: #0073C0;
+    color: white !important;
+}
+
+.btn-transparent {
+    border: 1px solid #ccc;
+}
+.btn-transparent .fa-phone-volume {
+    color: #0073C0;
+}
+.btn-transparent:hover {
+    background-color: #0073C0;
+    border-color: #0073C0;
+}
+.btn-transparent:hover > * {
+    color: #fff  !important;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #0073C0;
+}
+.btn-white:hover {
+    background-color:  #0183DB;
+    color: white;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/*****************************
+        HEADER
+*****************************/
+#navbarSupportedContent .current-menu-item {
+    color: #fff;
+    background-color: #0073C0;
+}
+#navbarSupportedContent .nav-item {
+    font-weight: 600;
+}
+
+/*****************************
+        LANDING BANNER
+*****************************/
+.landing-banner {
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.landing-banner .row {
+    height: 780px;
+    /* background-color: rgba(255,255,255,0.5); */
+}
+/*****************************
+        BENEFITS
+*****************************/
+.benefits .benefits-icon {
+    font-size: 60px;
+}
+/******************/
+.icon-rotate-20deg {
+    transform: rotate(-40deg);
+}
+/******************/
+.card-service-icon  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin: 0 auto;
+    margin-top: -35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    border:3px solid #0073C0;
+    position: relative;
+    z-index: 1;
+}
+/*****************************
+        SERVICES
+*****************************/
+.services .card {
+    border: 0;
+}
+.services .card img {
+    border-radius: 0;
+}
+
+.card .card-img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.card img {    
+    transition: .3s ease all;
+}
+.card:hover .card-img img {
+    transform: scale(1.1);
+}
+
+/*****************************
+        SERVICES
+*****************************/
+.footer-service-list {
+    list-style-type: none;
+}
